@@ -43,12 +43,27 @@ Flowchart is attached in GitHub
 
 Screenshots and video of a test run are attached in GitHub
 
-## Contributing
+## Author and Acknowledgements
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+No co-editors, chatgpt did most of the front-end and code cleaning. Prompts used below. 
 
-Please make sure to update tests as appropriate.
+Halfway through getting the front-end done, I decided to change the code to show three charts instead of just one. Since I was already lost in the code with all the gradio syntax I had chatgpt create the first two charts that only show the current segments with pointers and the merge of both segments. 
+
+## Chatgpt prompts
+
+“Can you create a gradio interface that has a textbox input and a bar chart output” 
+
+“Is there a way to lock the input box from changing after clicking the button and unlock it via a function” didn’t end up using the code from this one 
+
+“Is it possible to change the colour of one column in the bar chart” 
+
+A lot of prompts something like “how to iteratively update the bar chart”, the bar chart kept returning an error or just not sorting the list or just not updating 
+
+“Can you create an additional chart that represents the current segments being merged” 
+
+“Can you create another chart that accumulates as the pointers iterate over both segments concurrently with the segment chart” 
+
+Other prompts to get the front-end layout of the app, pasted my code with a prompt to try and get the right spacing of the app features 
 
 ## License
 
