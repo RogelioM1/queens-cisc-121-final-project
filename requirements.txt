@@ -1,3 +1,2 @@
-gradio
-plotly.graph_objects
-time
+gradio==6.0.2
+plotly==6.5.0
